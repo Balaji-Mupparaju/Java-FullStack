@@ -1,0 +1,38 @@
+/* Center the content of the main container */
+main {
+    display: flex;
+    align-items: center;    /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    height: 100vh;           /* Full viewport height */
+    background-color: white; /* Background color */
+}
+
+/* Styling for the container */
+.container1 {
+    text-align: center;      /* Center text within the container */
+    padding: 20px;  /* Explicit border color */
+}
+
+/* Styling for the heading inside the container */
+.container1 h2 {
+    margin: 0;              /* Remove default margin */
+    padding: 10px;
+    background-color: aliceblue;
+    border: 10px solid black;
+}
+
+/* Styling for the button inside the container */
+.container1 .button {
+    display: inline-block;   /* Ensures the button behaves like an inline-block element */
+    margin-top: 20px;
+    padding: 10px 20px;      /* Add horizontal padding for better button look */
+    border: 2px solid black; /* Reduce border width for the button */
+    background-color: aliceblue;
+    cursor: pointer;         /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Add hover effect to button */
+.container1 .button:hover {
+    background-color: lightblue; /* Change color on hover */
+}
