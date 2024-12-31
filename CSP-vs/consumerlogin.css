@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login {
+    padding: 20px;
+    color:firebrick;
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+}
+
+#maillabel,
+#passlabel,
+#submit {
+    
+    display: inline-block;
+    margin: 13px;
+}
